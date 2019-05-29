@@ -99,5 +99,57 @@ public class Principal extends JFrame implements ActionListener{
 		labelBienvenido.setForeground(new Color(255,255,255));
 		add(labelBienvenido);
 
+		labelTitle=new JLabel("Datos del trabajador para el cálculo de vacaciones");
+		labelTitle.setBounds(45,140,900,25);
+		labelTitle.setFont(new Font("Andale Mono",0,24));
+		labelTitle.setForeground(new Color(255,255,255));
+		add(labelTitle);
+
+		labelNombre=new JTextField("Nombre completo");
+		labelNombre.setBounds(25,188,180,25);
+		labelNombre.setFont(new Font("Andale Mono",1,12));
+		labelNombre.setForeground(new Color(255,255,255));
+		add(labelNombre);
+
+		txtNombreTrabajador=new JTextField();
+		txtNombreTrabajador.setBounds(25,213,150,25);
+		txtNombreTrabajador.setBackground(new java.awt.Color(224,224,224));
+		txtNombreTrabajador.setFont(new java.awt.Font("Andale Mono",1,14));
+		txtNombreTrabajador.setForeground(new java.awt.Color(255,0,0));
+		add(txtNombreTrabajador);
+
+		labelAPaterno=new JTextField("Apellido");
+		labelAPaterno.setBounds(25,248,180,25);
+		labelAPaterno.setFont(new Font("Andale Mono",1,12));
+		labelAPaterno.setForeground(new Color(255,255,255));
+		add(labelAPaterno);
+
+		txtAPaternoTrabajador=new JTextField();
+		txtAPaternoTrabajador.setBounds(25,273,150,25);
+		txtAPaternoTrabajador.setBackground(new java.awt.Color(224,224,224));
+		txtAPaternoTrabajador.setFont(new java.awt.Font("Andale Mono",1,14));
+		txtAPaternoTrabajador.setForeground(new java.awt.Color(255,0,0));
+		add(txtAPaternoTrabajador);
+
+		labelAMaterno=new JTextField("Apellido Materno");
+		labelAMaterno.setBounds(25,308,180,25);
+		labelAMaterno.setFont(new Font("Andale Mono",1,12));
+		labelAMaterno.setForeground(new Color(255,255,255));
+		add(labelAMaterno);
+
+		txtAMaternoTrabajador=new JTextField();
+		txtAMaternoTrabajador.setBounds(25,334,150,25);
+		txtAMaternoTrabajador.setBackground(new java.awt.Color(224,224,224));
+		txtAMaternoTrabajador.setFont(new java.awt.Font("Andale Mono",1,14));
+		txtAMaternoTrabajador.setForeground(new java.awt.Color(255,0,0));
+		add(txtAMaternoTrabajador);
+
+		labelDepartamento=new JLabel("Selecciona el Departamento:");
+		labelDepartamento.setBounds(220,188,180,25);
+		labelDepartamento.setFont(new Font("Andale Mono",1,12));
+		labelDepartamento.setForeground(new Color(255,255,255));
+		add(labelDepartamento);
+
+		
 	}
 }
